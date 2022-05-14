@@ -78,3 +78,7 @@ resource "aws_rds_cluster_parameter_group" "example" {
 
 }
 
+
+data "aws_secretsmanager_secret" "by-arn" {
+  arn = ""
+}

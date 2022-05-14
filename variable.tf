@@ -30,3 +30,15 @@ variable "subject_alternative_names" {
   default = ["*.bullychainkp.org"]
 }
 
+
+variable "database_name" {
+  default     = "webappdb"
+  description = "dbname"
+}
+
+
+variable "master_username" {
+  default     = "dbadmin"
+  description = "db user name"
+}
+
